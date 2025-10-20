@@ -615,6 +615,9 @@ body.light hr.separator {
 .about .about-list li:not(:last-child) {
   padding-bottom: 20px;
 }
+.about .about-list li ul>li:not(:last-child) {
+    padding-bottom: 5px;
+}
 
 .about .about-list .title {
   opacity: .8;
@@ -623,6 +626,7 @@ body.light hr.separator {
 
 .about .about-list .value {
   font-weight: 600;
+  /* opacity: .9; */
 }
 
 /* Box Stats */
